@@ -1,0 +1,38 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+h1 { 
+	font: normal Arial, sans-serif;
+	color: #004e05;
+	}
+h2 { 
+	font: normal Arial, sans-serif;
+	color: #fe1b1beb;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0e3d1b;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #2a2432;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+i {
+    font-style: italic;
+    color: #421d97;
+    }
+b {
+    font-weight: bold;
+    color: #fe1b1beb;
+    }
+.content-area {
+    max-width: 1280px;
+
+}
