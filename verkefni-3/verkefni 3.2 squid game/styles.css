@@ -1,0 +1,41 @@
+.box1 {
+    background-color: greenyellow;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dalkar2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+.dalkar2 > div {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    flex-grow: 1    ;
+}
+.dalkar3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+.dalkar4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+
+.rammi {
+    display:grid;
+    place-items: center;
+    align-items: stretch;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+
+}
