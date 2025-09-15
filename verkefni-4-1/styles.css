@@ -1,0 +1,25 @@
+.dalkar4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+.rammi {
+    display:grid;
+    place-items: center;
+    align-items: stretch;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+
+}
+@media (min-width: 600px) {
+    .dalkar4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 768px) {
+    .dalkar4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
